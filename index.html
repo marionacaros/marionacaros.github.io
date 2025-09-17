@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mariona Caros - Personal Website">
+    <title>Mariona Caros</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding: 2rem 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: 300;
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        main {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .section {
+            margin-bottom: 2rem;
+        }
+        
+        .section h2 {
+            color: #667eea;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+        
+        .section p {
+            margin-bottom: 1rem;
+            color: #666;
+        }
+        
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        
+        .contact-links a {
+            color: #667eea;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border: 2px solid #667eea;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        
+        .contact-links a:hover {
+            background-color: #667eea;
+            color: white;
+            transform: translateY(-2px);
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 3rem;
+            padding: 1rem;
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 1rem;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .contact-links {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Mariona Caros</h1>
+            <p class="subtitle">Welcome to my personal website</p>
+        </header>
+        
+        <main>
+            <section class="section">
+                <h2>About Me</h2>
+                <p>
+                    Hello! I'm Mariona Caros. Welcome to my personal website. 
+                    This is a space where I share my thoughts, projects, and connect with others.
+                </p>
+                <p>
+                    Feel free to explore and get in touch if you'd like to connect or collaborate.
+                </p>
+            </section>
+            
+            <section class="section">
+                <h2>Projects</h2>
+                <p>
+                    I'm passionate about creating meaningful projects and contributing to the community. 
+                    Check back soon for updates on my latest work and initiatives.
+                </p>
+            </section>
+            
+            <section class="section">
+                <h2>Contact</h2>
+                <p>
+                    I'd love to hear from you! Connect with me through the following channels:
+                </p>
+                <div class="contact-links">
+                    <a href="https://github.com/marionacaros" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="mailto:contact@example.com">Email</a>
+                </div>
+            </section>
+        </main>
+        
+        <footer>
+            <p>&copy; 2024 Mariona Caros. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
